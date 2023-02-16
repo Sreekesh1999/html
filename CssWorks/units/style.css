@@ -1,0 +1,16 @@
+.parent{
+    border: 2px solid cornflowerblue;
+    height: 300px;
+    background-color: bisque;
+    width: 700px;
+}
+
+.child{
+    border: 1px solid blueviolet;
+    width: 50%;
+    background-color: aqua;
+}
+.child2{
+    background-color: brown;
+    width: 50vw;
+}

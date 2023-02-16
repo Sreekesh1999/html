@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+.section{
+    border: 1px solid lightskyblue;
+    background-color: lightblue;
+}
+.row1{
+    height: 175px;
+}
+.row2{
+    width: 400px;
+    height: 100px;
+    margin-top: 50px;
+}
+.row3{
+    width: 400px;
+    height: 100px;
+    margin-left: auto;
+    margin-top: 50px;
+}
+.row4{
+    width: 400px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
