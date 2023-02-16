@@ -1,0 +1,25 @@
+body{
+    background-color: white;
+}
+.section{
+    width: 400px;
+    height: 450px;
+    border: 2px;
+    border-style: solid;
+}
+img{
+    width: 100%;
+}
+.heading{
+    color: black;
+    text-align: center;
+
+}
+.boAt{
+    width: 200px;
+    height: 200px;
+}
+#Logitech{
+    width: 250px;
+    height: 250px;
+}
