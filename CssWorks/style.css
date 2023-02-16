@@ -1,0 +1,27 @@
+/* select element{
+    property:value;
+    property2:Value2;
+    }
+ */
+
+ /* basic selectors*/
+ /*tagSelector|idSelector|classSelector */
+ 
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+#mob_cat{
+    color: yellow;
+    text-align: left;
+    text-decoration: underline;
+}
+.brand{
+    color: aquamarine;  
+    text-align: right;
+    text-decoration: underline;
+}
