@@ -1,20 +1,21 @@
+body{
+    background-color: blueviolet;
+}
 .section{
     border: 1px solid black;
     width: 300px;
     height: 100px;
     background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
     
 }
-.row1{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-}
 .row2{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 300px;
+    margin-top: 140px;
 }
-.button{
-    margin-left: auto;
+.content{
+    width: 400px;
+    height: 150px;
+    margin-top: 50px;
+    padding: 20px;
 }
