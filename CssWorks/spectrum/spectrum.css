@@ -1,0 +1,115 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+.section{
+    width: 40%;
+    height: 100px;
+    border: 1px hidden white;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    width: 80px;
+    height: 100px;
+    border: 1px solid black;
+}
+.box1{
+    width: 80px;
+    height: 100px;
+    border: 1px solid black;
+}
+.box2{
+    width: 80px;
+    height: 100px;
+    border: 1px solid black;
+}
+.section2{
+    width: 60%;
+    height: 100px;
+    border: 1px hidden white;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.section3{
+    width: 80%;
+    height: 100px;
+    border: 1px hidden white;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+
+}
+.box:nth-child(1){
+    background-color: gray;
+}
+.box:nth-child(2){
+    background-color: rgb(12, 56, 31);
+}
+.box:nth-child(3){
+    background-color: lightgreen;
+}
+.box:nth-child(4){
+    background-color: green;
+}
+.box:nth-child(5){
+    background-color: beige;
+}
+.box1:nth-child(1){
+    background-color: orange;
+}
+.box1:nth-child(2){
+    background-color: rgb(221, 40, 161);
+}
+.box1:nth-child(3){
+    background-color: rgb(136, 18, 214);
+}
+.box1:nth-child(4){
+    background-color: rgb(22, 207, 176);
+}
+.box1:nth-child(5){
+    background-color: rgb(110, 6, 44);
+}
+.box1:nth-child(6){
+    background-color: rgb(218, 180, 239);
+}
+.box1:nth-child(7){
+    background-color: rgb(27, 206, 96);
+}
+.box2:nth-child(1){
+    background-color: brown;
+}
+.box2:nth-child(2){
+    background-color: rgb(68, 61, 61);
+}
+.box2:nth-child(3){
+    background-color: rgba(6, 96, 54, 0.178);
+}
+.box2:nth-child(4){
+    background-color: rgb(65, 82, 3);
+}
+.box2:nth-child(5){
+    background-color: rgb(39, 2, 2);
+}
+.box2:nth-child(6){
+    background-color: rgb(249, 5, 5);
+}
+.box2:nth-child(7){
+    background-color: rgb(120, 245, 11);
+}
+.box2:nth-child(8){
+    background-color: rgb(26, 240, 6);
+}
+.box2:nth-child(9){
+    background-color: rgb(249, 7, 140);
+}
