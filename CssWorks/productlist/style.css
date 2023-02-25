@@ -1,23 +1,77 @@
+body{
+    background-color: black;
+}
+*{
+    margin: 0;
+}
 .container{
     width: 80%;
-    height: 400px;
+    height: 500px;
     border: 1px solid black;
     display: flex;
     justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
 }
 .card{
     width: 30%;
+    background-color: white;
 }
 .card img{
     width: 100%;
 }
 .card-header h2{
-    margin: 0;
+    color: white;
     text-align: center;
-    font-size: xx-large;
 }
 .card-header{
     background-color: gray;
+    padding: 20px;
 }
+.card:nth-child(2) .card-header{
+    background-color: red;
+}
+.card-body p{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.card-item{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul{
+    list-style: none;
+}
+.card-iteam a{
+    border: 1px solid red;
+    text-align: center;
+}
+.card-button{
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid red;
+    width: 140px;
+    background-color: red;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-button a{
+    font-style: normal;
+    text-decoration: none;
+    font-size: 15px;
+    font-style: none;
+    color: white;
+}
+ul li{
+    line-height: 30px
+}
+.fa-bookmark{
+    color: red;
+    margin-right: 10px;
+}
+
