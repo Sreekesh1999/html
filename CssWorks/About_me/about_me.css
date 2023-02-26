@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+}
+.container {
+    margin-top: 20px;
+    width: 80%;
+    height: 100%;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col {
+    border: 1px solid black;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 100%;
+}
+
+.col-1 {
+    background-color: rgb(25, 41, 220);
+}
+
+.col-1 img {
+    width: 77%;
+    height: 40%;
+    margin-left: 11%;
+    margin-top: 11%;
+}
+
+.identity {
+    margin-top: 11%;
+    margin-left: 11%;
+    color: white;
+    font-size: 100%;
+    /* text-align: center; */
+}
+.fa-brands {
+    margin-top: 11%;
+    color: white;
+    margin-left: 7%;
+}
+.symbol{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly; 
+}
+.end{
+    margin-top: 11%;
+}
+.id_space{
+    margin-top: 11%;
+}
+.about_me{
+    
+    width: 92%;
+    height: 15%;
+    margin-top: 11%;
+    margin-left: 11%;
+    color: red;
+    /* margin-top: 50px; */
+    font-size: x-large;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.para{
+    margin-left: 11%;
+    margin-right: 5%;
+    margin-top: 5%;
+    
+}
+.basic_details{
+    margin-top: 5%;
+    margin-left: 11%;
+    
+}
+.percentage{
+    padding-bottom: 3%;
+}
+.skillset{
+    margin-top: 17%;
+    margin-left: 11%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+.percentage{
+    text-align: left;
+    padding-left: 0;
+}
+.about_me a{
+    margin-left: 11%;
+    background-color: rgb(46, 46, 132);
+    border-radius: 10px;
+    color: white;
+    padding: 4%;
+    text-align: right;
+}
