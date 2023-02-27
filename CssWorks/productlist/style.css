@@ -74,4 +74,14 @@ ul li{
     color: red;
     margin-right: 10px;
 }
-
+@media (max-width:750px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }  
+    .card{
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+}   
