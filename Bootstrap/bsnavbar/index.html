@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap" rel="stylesheet">
@@ -13,6 +14,7 @@
     <title>Document</title>
 </head>
 <body class="bg-dark">
+  <!-- Navebar -->
     <nav class="navbar navbar-expand-lg navbar navbar bg-dark" data-bs-theme="dark">
         <div class="container">
           <a class="navbar-brand fw-bolder" href="#">Port<span class="text-danger">folio</a>
@@ -41,32 +43,78 @@
           </div>
         </div>
       </nav>
+      <!-- Details and image-row1 -->
       <div class="container" data-bs-theme="dark">
         <div class="row mt-5">
-            <div class="col-6 position-relative">
+            <div class="col-md-6 col-lg-6 col-12 position-relative">
                 <div class="position-absolute top-50">
                     <h4>Hello,My name is</h4>
                     <h2>Sreekesh</h2>
                     <h4>I<span class="text-danger">'</span>m a <span class="text-danger">FrontEnd</span> Devoleper</h4>
                 </div>
             </div>
-            <div class="col-6">
-                <img src="./istockphoto-1171169099-170667a.jpg" alt="" class="w-100">
+            <div class="col-md-6 col-lg-6 col-12">
+                <img src="./istockphoto-1171169099-170667a.jpg" alt="" class="w-100 rounded float-start rounded-pill mt-lg-0 mt-md-0 mt-5">
             </div>
         </div>
       </div>
+      <!-- Details and image-row2 -->
       <div>
         <div class="container mt-5">
         <div class="row">
-          <div class="col-6 text-danger mt-5">
-            <img src="./male-model-portfolio-shoot-travis-curry-2.jpg" alt="" class="w-50 rounded mx-auto d-block">
+          <div class=" text-danger mt-5 col-md-6 col-lg-6 col-12">
+            <img src="./male-model-portfolio-shoot-travis-curry-2.jpg" alt="" class="w-50 rounded mx-auto d-block mb-5">
           </div>
-          <div class="col-6 text-danger mt-5 text-white">
+          <div class="text-danger mt-5 text-white col-md-6 col-lg-6 col-12">
             <h1>About Me</h1>
-            <h6>Devoleper<span class="text-danger">& Designer</span></h6>
+            <h6>Devoleper<span class="text-danger"> & Designer</span></h6>
             <p>Hi, I'm Sreekesh, and I graduated from the University of New Mexico in 2015 with a degree in Computer Science. My interests are in Front End Engineering, and I love to create beautiful and performant products with delightful user experiences.</p>
+            <button type="button" class="btn btn-danger rounded-pill mt-3">Lets Talk</button>
+        </div>
+        </div>
+        <div class="container">
+          <h2 class="text-white text-center fs-2 fw-bolder mt-3">My recent projects</h2>
+          <div class="row mt-5 mb-5">
+            <div class="col-4">
+              <div class="card" style="width: 18rem;">
+                <img src="./attachment_129263768.jfif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Social meadia</h5>
+                  <p class="card-text">Weather apps enable users to get instant alerts regarding weather conditions. Weather apps are the simplest method to know about the updates of the upcoming weather.</p>
+                  <a href="https://www.google.com/search?q=google+weather&bih=544&biw=1280&rlz=1C1YTUH_enIN1032IN1032&hl=en-US&ei=yTMCZL3TGOer4-EP4IK-kAE&oq=google+w&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQARgBMgUIABCRAjIHCAAQsQMQQzILCAAQsQMQgwEQkQIyCwgAELEDEIMBEJECMggIABCABBCxAzIHCAAQsQMQQzIFCAAQgAQyCwgAEIAEELEDEIMBMgsIABCABBCxAxCDATIFCAAQgAQ6CggAELEDEIMBEEM6FAguELEDEIMBEMcBENEDENQCEJECOhAILhCxAxCDARDHARDRAxBDOgQIABBDSgQIQRgAUABYsA9g1yVoAHABeACAAYgBiAGcB5IBAzEuN5gBAKABAcABAQ&sclient=gws-wiz-serp" class="btn btn-primary">Go Somewhere</a>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-4">
+              <div class="card" style="width: 18rem;">
+                <img src="./ecom1.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ecom Application</h5>
+                  <p class="card-text">website that allow users and organizations to connect, communicate and form relationships. People can connect with others with the same interests.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-4">
+              <div class="card" style="width: 18rem;">
+                <img src="./27th-IFFK.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">IFFK Application</h5>
+                  <p class="card-text">The festival aims at presenting a competition section exclusively for films from Asian, African and Latin American countries and a selection of the best of World Cinema</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+
+            </div>
           </div>
         </div>
+        <div class="container-fluid">
+          <h3 class="text-white text-center mb-5">Let Me Get You A Beautiful Website </h3>
+          <div class="d-flex justify-content-center mb-5 mt-0"><button class="btn btn-danger">Hire me</button></div>
+        </div>
+
       </div>
       </div>
 </body>
