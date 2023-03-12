@@ -1,0 +1,48 @@
+.container {
+    position: relative;
+  }
+  
+  .right-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+.talk{
+    margin-left: 90%;
+}
+.cimg{
+    width: 100%;
+    height: 50%;
+}
+.btn{
+    margin-left: 22%;
+}
+.fa-solid{
+    color: rgb(187, 187, 7);
+}
+.fa-solidfirst{
+    margin-left: 25%;
+}
+.cimg-2{
+    width: 100%;
+    height: 45%;
+}
+.cimg-3{
+    margin-top: 6%;
+    width: 100%;
+    height: auto;
+}
+.cimg-4{
+    margin-top: 10%;
+    width: 100%;
+    height: auto;
+}
+.btn2{
+    margin-left: 20%;
+}
+.btn2:nth-child(1){
+    margin-top: 50px;
+}
+.container{
+    display: flex;
+}
